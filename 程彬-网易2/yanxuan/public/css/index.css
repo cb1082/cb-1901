@@ -1,0 +1,26 @@
+#app,body,html{
+    height: 100%;
+}
+.page{
+  position: absolute;
+  bottom: 49px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+}
+.page.subpage{
+    bottom: 0;
+    z-index: 4000;    
+}
+.slideInRight,.slideOutRight,.flipInY{
+    animation-duration: 300ms;
+}
+
+@media all and (max-width: 320px){
+    .suofang{
+        
+        transform:scale(0.83);
+    }
+}

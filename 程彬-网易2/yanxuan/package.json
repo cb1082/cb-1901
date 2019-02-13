@@ -1,0 +1,26 @@
+{
+  "name": "yanxuan",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "better-scroll": "^1.14.1",
+    "ly-tab": "^2.1.2",
+    "vant": "^1.5.7",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.1",
+    "vue-waterfall": "^1.0.6",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "babel-plugin-import": "^1.11.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
